@@ -1,11 +1,16 @@
 # Film Ratings Terraform
 
-This repo has the terraform definitions to set up an AWS cluster for
-the Film Ratings app from my [blog](https://circleci.com/blog/deploy-a-clojure-web-application-to-aws-using-terraform/)
+This repo has the terraform definitions to set up an AWS cluster for the "Film Ratings app" from Chris Howe-Jones' [blog](https://circleci.com/blog/deploy-a-clojure-web-application-to-aws-using-terraform/)
 
 ## Prerequisites
 
 Install Terraform. This repo as been tested on version v0.12.2
+
+Which Terraform do I have?
+
+``` shell
+ terraform -version 
+``` 
 
 Set up an AWS account and add a new IAM user with admin
 privilege. Generate a new key pair for that user called
